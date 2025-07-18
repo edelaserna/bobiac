@@ -17,10 +17,6 @@ You are given a training set of 7 images and their corresponding ground truth ma
 
 You are given a single raw image, without its corresponding ground truth mask. Your task is to develop a segmentation pipeline that can segment the cell outlines in the image as closely as possible to the ground truth that is kept secret.
 
-3. **Segment the nuclei**.
-
-You are given a single raw image of nuclei, without its corresponding ground truth mask. Your task is to develop a segmentation pipeline that can segment the nuclei in the image as closely as possible to the ground truth that is kept secret. Images are taken from the Broad Bioimage Benchmark Collection: https://bbbc.broadinstitute.org/BBBC006.
-
 ## Download the dataset
 
 <a href="../_static/data/student_group_work.zip" download> <i class="fas fa-download"></i> Download the segmentation challenge dataset </a>
