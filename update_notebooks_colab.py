@@ -145,7 +145,13 @@ def _create_pip_install_dependencies_cell(cell: nbformat.NotebookNode) -> list[s
             if line.startswith("# ]"):
                 break
             if line.startswith("#") and '"' in line:
-                deps.append(line.split('"')[1])
+                dep = line.split('"')[1]
+                # General handling for any dep with @ git+https://github.com
+                if "@ git+https://github.com" in dep:
+                    git_url = dep.split("@ ", 1)[1]
+                    install_commands.append(f"%pip install {git_url}")
+                else:
+                    deps.append(dep)
 
     # Generate pip install commands (quoted if extras used)
     for dep in deps:
