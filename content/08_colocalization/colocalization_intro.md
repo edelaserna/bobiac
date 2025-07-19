@@ -7,11 +7,11 @@ In this lesson, we will explore the concept of colocalization in microscopy imag
 ### Slides
 
 <a
-    class="custom-button custom-download-button" href="../../pdfs/08_colocalization/templates.pdf" download> <i class="fas fa-download"></i> Download the Slides
+    class="custom-button custom-download-button" href="../../pdfs/08_colocalization/bobiac_coloc.pdf" download> <i class="fas fa-download"></i> Download the Slides
 </a>
 
 <div align="center">
-  <iframe class="custom-pdf-frame" src="../../pdfs/08_colocalization/templates.pdf"> </iframe>
+  <iframe class="custom-pdf-frame" src="../../pdfs/08_colocalization/bobiac_coloc.pdf"> </iframe>
 </div>
 
 ## Pixel intensity-based colocalization
@@ -36,3 +36,13 @@ In this notebook we analyse the spatial properties of points. This includes:
 - Using monte carlo simulations for statistical validation  
 
 Although points are the simplest type of object, many of the learned concepts are generalizable to more complex types of objects.  
+
+### Slides
+
+<a
+    class="custom-button custom-download-button" href="../../pdfs/08_colocalization/practical_object_based_coloc.pdf" download> <i class="fas fa-download"></i> Download the Slides
+</a>
+
+<div align="center">
+  <iframe class="custom-pdf-frame" src="../../pdfs/08_colocalization/practical_object_based_coloc.pdf"> </iframe>
+</div>
