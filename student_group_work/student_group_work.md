@@ -34,8 +34,6 @@ You can find the solutions and run it using this Google Colab notebook:
     </a>
 </div>
 
-# Evaluation Notebook
-
 
 <!-- ## Leaderboard
 
