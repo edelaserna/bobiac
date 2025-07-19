@@ -26,8 +26,6 @@ You are given a single raw image, without its corresponding ground truth mask. Y
 ## Solution
 You can find the solutions and run it using this Google Colab notebook:
 
-# Evaluation Notebook
-
 <div class="custom-button-row">
     <a
     class="custom-button custom-download-button" href="https://colab.research.google.com/github/HMS-IAC/bobiac/blob/gh-pages/colab_notebooks/10_student_group/[solution]_student_work_group.ipynb" target="_blank">
